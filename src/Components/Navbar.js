@@ -1,4 +1,3 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import { Nav,Container,Navbar } from 'react-bootstrap';
@@ -9,11 +8,11 @@ const nav = () => {
     <div>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">Juventus </Navbar.Brand>
+  <Navbar.Brand>Juventus </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link> <Link to='/Home' style={{ textDecoration: 'none',color:'white'}}>Home</Link></Nav.Link>
+      <Nav.Link> <Link to='/' style={{ textDecoration: 'none',color:'white'}}>Home</Link></Nav.Link>
       <Nav.Link ><Link to='/Aboutus' style={{ textDecoration: 'none',color:'white'}}>AboutUS</Link></Nav.Link>
       <Nav.Link ><Link to='/profile' style={{ textDecoration: 'none',color:'white'}}>Profile</Link></Nav.Link>
     </Nav>
